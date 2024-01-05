@@ -27,9 +27,9 @@ BookHub is your gateway to a world where books come alive, connecting you with t
 
 
 # 🗣️User Story
-AS a book enthusiast
-I WANT to explore bestsellers, search for books, and find local bookstores and libraries
-SO THAT I can immerse myself in the world of books and support local bookstores.
+AS a book enthusiast<br>
+I WANT to explore bestsellers, search for books, and find local bookstores and libraries<br>
+SO THAT I can immerse myself in the world of books and support local bookstores.<br>
 
 <br>
 

@@ -3,161 +3,215 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title></title>
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
 			rel="stylesheet"
 			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
 			crossorigin="anonymous"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		/>
 
-    </script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
+
 	<body>
 		<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tales & Titles</title>
-    
-  </head>
-  <body>
-    <div>
-      <header role="banner">
-        <img
-          id="logo-main"
-          src="./assets/5.jpg"
-          width="300"
-          alt="Logo Thing main logo"
-        />
-        <nav
-          id="navbar-primary"
-          class="navbar navbar-default"
-          role="navigation"
-        >
-          <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button
-                type="button"
-                class="navbar-toggle"
-                data-toggle="collapse"
-                data-target="#navbar-primary-collapse"
-              >
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar-primary-collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-              </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-          </div>
-          <!-- /.container-fluid -->
-        </nav>
-      </header>
-      <!-- header role="banner" -->
-		<main>
-			<section>
-				<div id="carouselExample" class="carousel slide">
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img src="" class="d-block w-100" alt="..." />
+		<html lang="en">
+			<head>
+				<meta charset="UTF-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<title>Tales & Titles</title>
+			</head>
+
+			<body>
+				<!-- === HEADER ===-->
+				<header>
+					<nav
+						class="navbar navbar-expand-lg navbar-dark"
+						style="background-color: #88ab8e"
+					>
+						<div class="container-fluid">
+							<a class="navbar-brand" href="#">
+								<img
+									id="logo-main"
+									src="./assets/group-logo-z-2.png"
+									width="175"
+									alt="Logo Thing main logo"
+								/>
+							</a>
+							<button
+								class="navbar-toggler"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#navbarNav"
+								aria-controls="navbarNav"
+								aria-expanded="false"
+								aria-label="Toggle navigation"
+							>
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarNav">
+								<ul class="navbar-nav ms-auto">
+									<li class="nav-item">
+										<a
+											class="nav-link active"
+											aria-current="page"
+											href="index.html"
+											>Home</a
+										>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="books.html">Book Search</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="map.html">Book Stores</a>
+									</li>
+								</ul>
+							</div>
 						</div>
-						<div class="carousel-item">
-							<img src="" class="d-block w-100" alt="..." />
+					</nav>
+				</header>
+				<!-- === ./ HEADER ===-->
+				<!-- === MAIN ===-->
+				<main>
+					<section>
+						<!-- === CAROUSEL ===-->
+						<div
+							class="container-fluid d-flex justify-content-center align-items-center"
+						>
+							<h1 class="text-center">
+								<span class="colour-span">New Year Times</span> Bestseller List
+							</h1>
 						</div>
-						<div class="carousel-item">
-							<img src="" class="d-block w-100" alt="..." />
+						<div id="carouselExample" class="carousel slide mt-3 mb-3">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="" class="d-block w-100" alt="..." />
+								</div>
+								<div class="carousel-item">
+									<img src="" class="d-block w-100" alt="..." />
+								</div>
+								<div class="carousel-item">
+									<img src="" class="d-block w-100" alt="..." />
+								</div>
+							</div>
+							<button
+								class="carousel-control-prev"
+								type="button"
+								data-bs-target="#carouselExample"
+								data-bs-slide="prev"
+							>
+								<i class="fa fa-arrow-left"></i>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button
+								class="carousel-control-next"
+								type="button"
+								data-bs-target="#carouselExample"
+								data-bs-slide="next"
+							>
+								<i class="fa fa-arrow-right" aria-hidden="true"></i>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+						<!-- === ./ CAROUSEL ===-->
+					</section>
+
+<!-- === MODAL ===-->
+					<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable"></div>
+			<div class="modal fade" id="bookModal" aria-labelledby="bookModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="bookModalLabel">Modal title</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<img id="bookImage" src="" alt="Book Image"">
+							<h5 id="bookAuthor">Author: </h5>
+							<p id="bookTitle">Title: </p>
+							<p id="rank">Bestseller Rank: </p>
+							<p id="weeksOnList">Weeks on Bestseller List: </p>
+							<p id="bookDescription">Description: </p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary custom-btn" data-bs-dismiss="modal">Close</button>
 						</div>
 					</div>
-					<button
-						class="carousel-control-prev"
-						type="button"
-						data-bs-target="#carouselExample"
-						data-bs-slide="prev"
-					>
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="visually-hidden">Previous</span>
-					</button>
-					<button
-						class="carousel-control-next"
-						type="button"
-						data-bs-target="#carouselExample"
-						data-bs-slide="next"
-					>
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="visually-hidden">Next</span>
-					</button>
 				</div>
-			</section>
-			<!-- <section>
-				<div class="input-group input-group-lg">
-					<span class="input-group-text" id="inputGroup-sizing-lg">Large</span>
-					<input
-						type="text"
-						class="form-control"
-						aria-label="Sizing example input"
-						aria-describedby="inputGroup-sizing-lg"
-					/>
-				</div>
-			</section> -->
-		</main>
-		<!-- footer section -->
-		<footer id="centered-footer">
-			<div class="footer-dark">
-				<footer>
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-6 col-md-3 item">
-								<h3>Services</h3>
-								<ul>
-									<li><a href="#">Web design</a></li>
-									<li><a href="#">Development</a></li>
-									<li><a href="#">Hosting</a></li>
-								</ul>
-							</div>
-							<div class="col-sm-6 col-md-3 item">
-								<h3>About</h3>
-								<ul>
-									<li><a href="#">Company</a></li>
-									<li><a href="#">Team</a></li>
-									<li><a href="#">Careers</a></li>
-								</ul>
-							</div>
-							<div class="col-md-6 item text">
-								<h3>Tales & Titles</h3>
-								<p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
-							</div>
-							<div class="col item social"><a href="https://github.com/najmamusa/Group-Project-1" target="_blank"><i class="fa-brands fa-github"></i></a></div>
-						</div>
-						<p class="copyright">Tales & Titles © 2023</p>
+			</div>
+			</div>
+<!-- === ./ MODAL ===-->
+
+
+
+				</main>
+				<!-- === ./ MAIN ===-->
+
+				<!-- === FOOTER ===-->
+				<footer
+					class="text-center text-lg-start text-white"
+					style="background-color: #88ab8e"
+				>
+					<div class="container p-4 pb-0">
+						<section class="container-fluid mb-4 text-center">
+							<p class="d-flex justify-content-center align-items-center">
+								<span class="me-3">Search for your favorite books</span>
+								<button
+									type="button"
+									class="btn btn-outline-light btn-rounded me-3"
+								>
+									<a class="nav-link" href="books.html">Book Search</a>
+								</button>
+
+								<a
+									class="btn btn-outline-light btn-floating m-1 me-3"
+									href="https://marshjaja.github.io/EdX-Group-Project-1/"
+									role="button"
+								>
+									<i class="fa fa-external-link"></i>
+								</a>
+								
+								<a
+									class="btn btn-outline-light btn-floating m-1"
+									href="https://github.com/marshjaja/EdX-Group-Project-1"
+									
+								>
+									<i class="fab fa-github"></i>
+								</a>
+								
+							</p>
+						</section>
+					</div>
+					<div class="text-center p-3" style="background-color: #739072">
+						<span id="current-year"></span> © Tales & Titles. All Rights
+						Reserved.
 					</div>
 				</footer>
-			</div>
-        </footer>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-	<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
-			integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
-			crossorigin="anonymous"
-		></script>
-		<script src="https://code.jquery.com/jquery.js"></script>
+				<!-- === ./ FOOTER ===-->
+				<script
+					src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+					integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+					crossorigin="anonymous"
+				></script>
+				<script src="https://code.jquery.com/jquery.js"></script>
+				<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 
-		<script src="./js/script.js"></script>
-		<script src="./js/google-api-script.js"></script>
+				<script src="./js/script.js"></script>
+				<script>
+					$("#current-year").text(new Date().getFullYear());
+				</script>
+			</body>
+		</html>
 	</body>
 </html>

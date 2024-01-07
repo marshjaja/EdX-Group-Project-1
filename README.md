@@ -3,19 +3,25 @@
 ![github-header-image](https://github.com/marshjaja/EdX-Group-Project-1/assets/114920895/16b3f25c-fdc7-4f63-87e1-36e5a950efee)
 <div align="center">
 
-# Tales & Titles: A Group Project Turned Solo Endeavor
+# 👩🏾‍💻📚 TALES & TITLES 📖👩🏾‍💻
+## Your gateway to finding your next read, browse the New York Time bestsellers list and discover bustling book havens near you. 
+#### An ![edX](https://img.shields.io/badge/edX-%2302262B.svg?style=for-the-badge&logo=edX&logoColor=white) Group Project Turned Solo Endeavor 
+![GitHub contributors](https://img.shields.io/github/contributors/marshjaja/EdX-Group-Project-1?style=for-the-badge&logoColor=white)
 
+![Screenshot 2024-01-07 at 12 10 09](https://github.com/marshjaja/EdX-Group-Project-1/assets/114920895/15f25690-f5b8-4045-af00-7a32227a7b77)
+
+
+
+## TECHNOLOGIES USED
 ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
-![edX](https://img.shields.io/badge/edX-%2302262B.svg?style=for-the-badge&logo=edX&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-https://img.shields.io/badge/<SUBJECT>stuff<STATUS>-<COLOR>?logo=data:image/svg%2bxml;base64,
+
 
 
 <img src="https://img.shields.io/github/last-commit/marshjaja/EdX-Group-Project-1?style=for-the-badge&color=efc8d4" alt="Last Commit" />
@@ -24,55 +30,18 @@ https://img.shields.io/badge/<SUBJECT>stuff<STATUS>-<COLOR>?logo=data:image/svg%
 
 <img src="https://img.shields.io/github/commit-activity/m/marshjaja/EdX-Group-Project-1?style=for-the-badge&color=efc8d4" alt="GitHub commit activity" />
 <img src="https://img.shields.io/github/languages/top/marshjaja/EdX-Group-Project-1?style=for-the-badge&color=efc8d4" alt="GitHub top language" />
+</div>
 
-![GitHub contributors](https://img.shields.io/github/contributors/marshjaja/EdX-Group-Project-1?style=for-the-badge&logoColor=white)
 
-![GitHub Contributors Image](https://contrib.rocks/image?repo=marshjaja/EdX-Group-Project-1)
 
 [![Naereen's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=marshjaja&theme=blue-green)](https://github.com/marshjaja/github-readme-stats)
 
 
-
-</div>
-<table>
-  <tr>
-    <td>
-
-**Column 1**
-- Point 1
-- Point 2
-- Point 3
-
-    </td>
-    <td>
-
-**Column 2**
-- Point 1
-- Point 2
-- Point 3
-
-    </td>
-  </tr>
-</table>
+#  🖇️LINK
+https://marshjaja.github.io/EdX-Group-Project-1/
 
 
-
-<a href="https://github.com/marshjaja/EdX-Group-Project-1/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=marshjaja/EdX-Group-Project-1" />
-</a>
-
-
-EdX Group Project 1
-# 👩🏾‍💻👥 TALES & TITLES  👥👩🏽‍💻 
-## Your gateway to finding your next read, browse the New York Time bestsellers list and discover bustling book havens near you. 
-
-
-<h1>  🖇️LINK</h1>
-https://najmamusa.github.io/Group-Project-1/books.html
-
-
- <h1>📖DESCRIPTION </h1>
-
+# 📖DESCRIPTION
 
 Embark on a Literary Adventure with Tales & Titles: A Haven for Book Lovers!
 Dive into the World of Books:
@@ -111,30 +80,30 @@ The app should:
 
 
 
-# Improvement I want to make:
+# 🚧👷‍♀️Improvement I want to make:
 
 
 
 
 
-<h1>📷SCREENSHOTS</h1>
+# 📷SCREENSHOTS
 
 
 
 
-<h1> 📹VIDEO </h1>
+# 📹VIDEO 
 
 
 
 
-<h1>❗GETTING STARTED</h1>
+#❗GETTING STARTED
 1. Clone the repository: git clone <repository-url>
 2. Navigate to the project directory: cd repository name
 3. Install dependencies: npm install, yarn add
 4. Set up environment variables:
 5. Start the development server: localhost, liveserver
 
-<h1>📶TECHNOLOGIES USED</h1>
+# 📶TECHNOLOGIES USED
 Front-end: 
 <br/>
 - [x] HTML <br/>
@@ -147,7 +116,7 @@ Front-end:
 <br/>
 Other Tools and Libraries:
 
-<h1>🆘CONTRIBUTING</h1>
+# 🆘CONTRIBUTING
 <h3>We welcome contributions from the community!</h3> 
 To contribute, follow these steps:
 1. Fork the repository. <br>

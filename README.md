@@ -1,6 +1,8 @@
 
 
 ![github-header-image](https://github.com/marshjaja/EdX-Group-Project-1/assets/114920895/16b3f25c-fdc7-4f63-87e1-36e5a950efee)
+<a id="Top"></a>
+
 <div align="center">
 
 # 👩🏾‍💻📚 TALES & TITLES 📖👩🏾‍💻
@@ -31,10 +33,6 @@
 <img src="https://img.shields.io/github/commit-activity/m/marshjaja/EdX-Group-Project-1?style=for-the-badge&color=efc8d4" alt="GitHub commit activity" />
 <img src="https://img.shields.io/github/languages/top/marshjaja/EdX-Group-Project-1?style=for-the-badge&color=efc8d4" alt="GitHub top language" />
 </div>
-
-
-
-[![Naereen's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=marshjaja&theme=blue-green)](https://github.com/marshjaja/github-readme-stats)
 
 
 #  🖇️LINK
@@ -104,17 +102,19 @@ The app should:
 5. Start the development server: localhost, liveserver
 
 # 📶TECHNOLOGIES USED
-Front-end: 
+
+[![Naereen's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=marshjaja&theme=blue-green)](https://github.com/marshjaja/github-readme-stats)
+
 <br/>
 - [x] HTML <br/>
 - [x] CSS <br/>
 - [x] Javascript <br/>
 - [x] jQuery <br/>
 - [x] Bootstrap <br/>
-- [x] DayJs <br/>
-- [x] SweetAlert <br/>
+
 <br/>
-Other Tools and Libraries:
+Other Tools and Libraries: <br/>
+- [x] DayJs <br/>
 
 # 🆘CONTRIBUTING
 <h3>We welcome contributions from the community!</h3> 
@@ -124,3 +124,17 @@ To contribute, follow these steps:
 3. Make your changes and commit them: git commit -am 'Add some feature'<br>
 4. Push the branch: git push origin my-new-feature <br>
 5. Submit a pull request detailing your changes. <br>
+
+
+# LICENSE
+Copyright © 2024 Marcia Mijnhijmer ([@marshjaja](https://github.com/marshjaja))
+
+---
+
+## 👏 Acknowledgments
+
+-  Marcia Mijnhijmer ([@marshjaja](https://github.com/marshjaja)), Hussein Hussein ([@hhussein9](https://github.com/hhussein9)), Najma Musa ([@najmamusa](https://github.com/najmamusa))
+
+[**Return**](#Top)
+
+---

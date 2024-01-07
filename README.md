@@ -1,9 +1,10 @@
-
-
-![github-header-image](https://github.com/marshjaja/EdX-Group-Project-1/assets/114920895/16b3f25c-fdc7-4f63-87e1-36e5a950efee)
 <a id="Top"></a>
+![github-header-image](https://github.com/marshjaja/EdX-Group-Project-1/assets/114920895/16b3f25c-fdc7-4f63-87e1-36e5a950efee)
+
 
 <div align="center">
+  
+---
 
 # 👩🏾‍💻📚 TALES & TITLES 📖👩🏾‍💻
 ## Your gateway to finding your next read, browse the New York Time bestsellers list and discover bustling book havens near you. 
@@ -12,7 +13,7 @@
 
 ![Screenshot 2024-01-07 at 12 10 09](https://github.com/marshjaja/EdX-Group-Project-1/assets/114920895/15f25690-f5b8-4045-af00-7a32227a7b77)
 
-
+---
 
 ## TECHNOLOGIES USED
 ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
@@ -23,28 +24,24 @@
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-
-
-
 <img src="https://img.shields.io/github/last-commit/marshjaja/EdX-Group-Project-1?style=for-the-badge&color=efc8d4" alt="Last Commit" />
-
 <img src="https://img.shields.io/github/license/marshjaja/EdX-Group-Project-1?style=for-the-badge&color=efc8d4" alt="GitHub license" />
-
 <img src="https://img.shields.io/github/commit-activity/m/marshjaja/EdX-Group-Project-1?style=for-the-badge&color=efc8d4" alt="GitHub commit activity" />
 <img src="https://img.shields.io/github/languages/top/marshjaja/EdX-Group-Project-1?style=for-the-badge&color=efc8d4" alt="GitHub top language" />
 </div>
 
+---
 
 #  🖇️LINK
 https://marshjaja.github.io/EdX-Group-Project-1/
 
+---
 
 # 📖DESCRIPTION
-
-Embark on a Literary Adventure with Tales & Titles: A Haven for Book Lovers!
+Embark on a Literary Adventure with Tales & Titles: A Haven for Book Lovers!</br>
 Dive into the World of Books:
-Tales & Titles is an interactive web application designed for book enthusiasts. It offers a unique platform to:
-
+Tales & Titles is an interactive web application designed for book enthusiasts.</br>
+It offers a unique platform to:
 ## **📚Explore Bestsellers:** 
 Discover the latest and greatest in the literary world with a curated list of top reads.
 ## **📖Search for Books:** 
@@ -55,15 +52,18 @@ Uncover vibrant, book-centric local spots such as bookstores and libraries near 
 Navigate through your local literary landscape with an interactive map, marked with your location and the most exciting literary locales nearby.
 BookHub is your gateway to a world where books come alive, connecting you with the stories you love and the communities that cherish them.
 
+---
 
-# 🗣️User Story
+# 🗣️USER STORY
 AS a book enthusiast<br>
 I WANT to explore bestsellers, search for books, and find local bookstores and libraries<br>
 SO THAT I can immerse myself in the world of books and support local bookstores.<br>
 
 <br>
 
-# ✅Acceptance Criteria
+---
+
+# ✅ACCEPTANCE CRITERIA
 The app should:
 - Use Bootstrap.<br>
 - Be deployed to GitHub Pages.<br>
@@ -76,23 +76,23 @@ The app should:
 - Have a clean repository that meets quality coding standards (file structure, naming conventions, best practices for class/id naming conventions, indentation, quality comments, and so on).<br>
 - Have a quality README (including a unique name, description, technologies used, screenshot, and link to the deployed application).<br>
 
+---
+
+# 🚧👷‍♀️PROJECT IMPROVEMENTS:
 
 
-# 🚧👷‍♀️Improvement I want to make:
-
-
-
+---
 
 
 # 📷SCREENSHOTS
 
 
-
+---
 
 # 📹VIDEO 
 
 
-
+---
 
 #❗GETTING STARTED
 1. Clone the repository: git clone <repository-url>
@@ -100,6 +100,8 @@ The app should:
 3. Install dependencies: npm install, yarn add
 4. Set up environment variables:
 5. Start the development server: localhost, liveserver
+
+---
 
 # 📶TECHNOLOGIES USED
 
@@ -116,6 +118,19 @@ The app should:
 Other Tools and Libraries: <br/>
 - [x] DayJs <br/>
 
+---
+# ⚙️ APIs Utilized
+
+### **New York Times API**:<br>
+- Offers a list of hardcover fiction bestsellers, updated on a weekly basis.
+### **Mapbox API**:<br> 
+- Delivers real-time data for Bookish Hotspots, with custom markers, enhancing the app's local discovery features.
+### **Google Books API**:<br>
+- Facilitates comprehensive book searches, allowing users to find books based on author, title, or genre and more.
+
+
+---
+
 # 🆘CONTRIBUTING
 <h3>We welcome contributions from the community!</h3> 
 To contribute, follow these steps:
@@ -125,13 +140,13 @@ To contribute, follow these steps:
 4. Push the branch: git push origin my-new-feature <br>
 5. Submit a pull request detailing your changes. <br>
 
-
+---
 # LICENSE
 Copyright © 2024 Marcia Mijnhijmer ([@marshjaja](https://github.com/marshjaja))
 
 ---
 
-## 👏 Acknowledgments
+## 👏 ACKNOWLEDGMENTS
 
 -  Marcia Mijnhijmer ([@marshjaja](https://github.com/marshjaja)), Hussein Hussein ([@hhussein9](https://github.com/hhussein9)), Najma Musa ([@najmamusa](https://github.com/najmamusa))
 

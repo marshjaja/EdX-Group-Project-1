@@ -1,7 +1,5 @@
 <a id="Top"></a>
 ![github-header-image](https://github.com/marshjaja/EdX-Group-Project-1/assets/114920895/16b3f25c-fdc7-4f63-87e1-36e5a950efee)
-🖇️LINK
-https://marshjaja.github.io/EdX-Group-Project-1/
 
 <div align="center">
   
@@ -99,10 +97,13 @@ The app should:
 
 # 📷SCREENSHOTS
 
-| Best Seller Page                                                                                                                                | Book Search Page                                                                                                                                |
-| ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/marshjaja/EdX-Group-Project-1/assets/114920895/6160812b-81c2-4d1c-8d2b-142183df3d0e" width="800" alt="Screenshot"> | <img src="https://github.com/marshjaja/EdX-Group-Project-1/assets/114920895/1afce775-971f-4f51-91ed-69c90cdfb7bb" width="460" alt="Screenshot"> |
-| <img src="https://github.com/marshjaja/EdX-Group-Project-1/assets/114920895/55b7bcbd-8bf4-49bc-ad96-56c354b0f764" width="800" alt="Screenshot"> | <img src="https://github.com/marshjaja/EdX-Group-Project-1/assets/114920895/6b2bf1f2-4f36-46e4-a563-65082ab208da" width="800" alt="Screenshot"> |
+|  Best Seller Page  | Book Search Page  |
+|----------|----------|
+|  <img src="https://github.com/marshjaja/EdX-Group-Project-1/assets/114920895/6160812b-81c2-4d1c-8d2b-142183df3d0e" width="600" alt="Screenshot"> | <img src="https://github.com/marshjaja/EdX-Group-Project-1/assets/114920895/1afce775-971f-4f51-91ed-69c90cdfb7bb" width="570" alt="Screenshot"> |
+
+| Book Recommendation Page  | Book Hub Map Page  |
+|----------|----------|
+| <img src="https://github.com/marshjaja/EdX-Group-Project-1/assets/114920895/55b7bcbd-8bf4-49bc-ad96-56c354b0f764" width="650" alt="Screenshot"> | <img src="https://github.com/marshjaja/EdX-Group-Project-1/assets/114920895/6b2bf1f2-4f36-46e4-a563-65082ab208da" width="720" alt="Screenshot"> |
 
 ---
 

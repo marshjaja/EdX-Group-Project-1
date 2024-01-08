@@ -23,7 +23,7 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="./css/style.css" type="text/css" />
-		<title>Tales & Titles</title>
+		<title>Literary Map</title>
 		<style>
 			#map {
 				height: 700px;
@@ -36,7 +36,7 @@
 		</style>
 	</head>
 
-	<body>
+	<body class="recommendation-page">
 		<!-- === HEADER ===-->
 		<header>
 			<nav
@@ -74,6 +74,11 @@
 								<a class="nav-link" href="books.html">Book Search</a>
 							</li>
 							<li class="nav-item">
+								<a class="nav-link" href="recommendations.html">
+									Book Recommendations</a
+								>
+							</li>
+							<li class="nav-item">
 								<a class="nav-link" href="map.html">Book Stores</a>
 							</li>
 						</ul>
@@ -91,6 +96,26 @@
 						<div class="card">
 							<div class="card-body btn-outline-danger">
 								<div id="map"></div>
+							</div>
+						</div>
+						<div class="icon-container">
+							<div class="icon-item">
+								<img
+									src="./assets/placeholder-marker.png"
+									width="50"
+									alt="Placeholder Marker"
+								/>
+								&nbsp &nbsp
+								<h3>= You Are Here!</h3>
+							</div>
+							<div class="icon-item">
+								<img
+									src="./assets/book-marker.png"
+									width="50"
+									alt="Book Marker"
+								/>
+								&nbsp &nbsp
+								<h3>= Book Hubs Near You</h3>
 							</div>
 						</div>
 					</div>
@@ -123,7 +148,6 @@
 						>
 							<a class="nav-link" href="books.html">Book Search</a>
 						</button>
-
 						<a
 							class="btn btn-outline-light btn-floating m-1 me-3"
 							href="https://marshjaja.github.io/EdX-Group-Project-1/"
@@ -131,7 +155,6 @@
 						>
 							<i class="fa fa-external-link"></i>
 						</a>
-
 						<a
 							class="btn btn-outline-light btn-floating m-1"
 							href="https://github.com/marshjaja/EdX-Group-Project-1"
@@ -142,7 +165,8 @@
 				</section>
 			</div>
 			<div class="text-center p-3" style="background-color: #739072">
-				<span id="current-year"></span> © Tales & Titles. All Rights Reserved.
+				©
+				<span id="current-year"></span> Marcia. All Rights Reserved.
 			</div>
 		</footer>
 		<!-- === ./ FOOTER ===-->

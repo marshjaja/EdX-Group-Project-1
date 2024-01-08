@@ -184,7 +184,8 @@ footer .btn:hover {
 /* =====  RECOMMENDATION  STYLES =====*/
 /* =====  RECOMMENDATION  STYLES =====*/
 .modal-alert-text {
-	color: rgb(234, 32, 32);
+	color: rgb(28, 28, 28);
+	font-size: 25px;
 	margin-top: 10px;
 }
 

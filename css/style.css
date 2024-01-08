@@ -1,28 +1,9 @@
-header[role="banner"] #logo-main {
-	display: block;
-	margin: 20px auto;
-}
-#navbar-primary.navbar-default {
-	background: transparent;
-	border: none;
-}
-#navbar-primary.navbar-default .navbar-nav {
-	width: 100%;
-	text-align: center;
-}
-#navbar-primary.navbar-default .navbar-nav > li {
-	display: inline-block;
-	float: none;
-}
-#navbar-primary.navbar-default .navbar-nav > li > a {
-	padding-left: 30px;
-	padding-right: 30px;
-}
+/* ===== CAROUSEL STYLES =====*/
+/* ===== CAROUSEL STYLES =====*/
 #carouselExample .carousel-item {
 	justify-content: center;
 	align-items: center;
 }
-
 #carouselExample .carousel-item img {
 	max-height: 600px;
 	width: auto;
@@ -34,38 +15,6 @@ header[role="banner"] #logo-main {
 #carouselExample .carousel-item h5 {
 	color: rgb(6, 6, 6);
 }
-p {
-	color: #4f6f52;
-}
-.custom-book-card {
-	width: 60%;
-	height: 70%;
-	margin: 20px auto;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	border-radius: 10px;
-}
-
-.custom-book-card .card-body {
-	padding: 20px;
-	padding: 5rem;
-}
-
-.custom-book-card .card-title {
-	font-size: 1.5rem;
-	color: #333;
-}
-
-.custom-book-card .card-text {
-	font-size: 1rem;
-	color: #666;
-	line-height: 1.6;
-}
-
-/* ===== CHECK ==== */
-/* .carousel-item .card {
-	max-width: 90%;
-} */
-/* ===== ./ CHECK ==== */
 .fa-arrow-right {
 	font-size: 2.5rem;
 	color: #efc8d4;
@@ -75,6 +24,69 @@ p {
 	color: #efc8d4;
 }
 
+@media screen and (max-width: 678px) {
+	#carouselExample .carousel-item img {
+		max-height: 600px;
+		width: auto;
+		object-fit: contain;
+		display: block;
+		margin-left: auto;
+		margin-right: 120px;
+	}
+}
+
+/* ===== ./ CAROUSEL STYLES =====*/
+/* ===== ./ CAROUSEL STYLES =====*/
+
+/* ===== CAROUSEL CARD STYLES =====*/
+/* ===== CAROUSEL CARD STYLES =====*/
+p {
+	color: #4f6f52;
+}
+.custom-book-card {
+	width: 50%;
+	height: 70%;
+	margin: 20px auto;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+@media screen and (max-width: 678px) {
+	.custom-book-card {
+		width: 70%;
+		height: 60%;
+		margin: 20px auto;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		border-radius: 10px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.custom-book-card {
+		width: 90%;
+		height: 80%;
+		margin: 20px auto;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		border-radius: 10px;
+	}
+}
+.custom-book-card .card-body {
+	padding: 20px;
+	padding: 5rem;
+}
+
+.custom-book-card .card-title {
+	font-size: 1.5rem;
+	color: #333;
+}
+.custom-book-card .card-text {
+	font-size: 1rem;
+	color: #666;
+	line-height: 1.6;
+}
+/* ===== ./ CAROUSEL CARD STYLES =====*/
+/* ===== ./ CAROUSEL CARD STYLES =====*/
+
+/* =====  MAIN APP STYLES =====*/
+/* =====  MAIN APP STYLES =====*/
 .colour-span {
 	color: #4f6f52;
 }
@@ -85,14 +97,14 @@ p {
 	padding-right: 0.5em;
 }
 .navbar .navbar-nav .nav-link:hover {
-	color: #eee7da;
+	color: #4f6f52;
 	opacity: 0.8;
 }
 
 @media screen and (min-width: 992px) {
 	.navbar .navbar-nav .nav-link {
-		padding-left: 2em;
-		padding-right: 3em;
+		padding-left: 1.5em;
+		padding-right: 2.5em;
 	}
 	.navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
 		border-right: 3px solid #fff;
@@ -126,7 +138,6 @@ footer .btn:hover {
 .custom-btn:hover,
 .custom-btn-form:hover {
 	background-color: #739072;
-	/* border: none; */
 }
 
 .custom-form {
@@ -138,8 +149,8 @@ footer .btn:hover {
 }
 #book-search-form {
 	padding: 100px;
-	margin: auto;
-
+	margin-bottom: 50px;
+	margin-top: 200px;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 	font-family: "Arial", sans-serif;
 }
@@ -155,7 +166,49 @@ footer .btn:hover {
 	border: 2px solid #efc8d4;
 	border-left: none;
 }
-
 .form-control:focus {
 	box-shadow: 0 0 5px #efc8d4;
 }
+
+.form-select {
+	border: 2px solid #efc8d4;
+}
+.form-control:focus,
+.form-select-lg:focus {
+	box-shadow: 0 0 5px #efc8d4;
+}
+
+/* ===== ./ MAIN APP STYLES =====*/
+/* ===== ./ MAIN APP STYLES =====*/
+
+/* =====  RECOMMENDATION  STYLES =====*/
+/* =====  RECOMMENDATION  STYLES =====*/
+.modal-alert-text {
+	color: rgb(234, 32, 32);
+	margin-top: 10px;
+}
+
+.main-content {
+	min-height: calc(100vh - 250px);
+}
+/* =====  ./ RECOMMENDATION  STYLES =====*/
+/* ===== ./  RECOMMENDATION  STYLES =====*/
+
+/* =====   MAP STYLES =====*/
+/* =====   MAP STYLES =====*/
+.icon-container {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.icon-item {
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.icon-item h1 {
+	margin: 0;
+}
+/* =====  ./ MAP STYLES =====*/
+/* =====  ./ MAP STYLES =====*/

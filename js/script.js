@@ -24,13 +24,18 @@ function updateCarousel(books) {
 
 		//note Create the card
 		let cardBody = $("<div>").addClass("card-body");
-		let titleElement = $("<h5>").addClass("card-title").text(book.title);
+		let titleElement = $("<h5>")
+			.addClass("card-title")
+			.text(book.title)
+			.css({ "margin-top": "40px" });
+
 		let descriptionElement = $("<p>")
 			.addClass("card-text")
-			.text(book.description);
+			.text(book.description)
+			.css({ "margin-top": "20px" });
 		//note add modal to card displaying extra info
 		let modalTriggerButton = $("<button>")
-			.addClass("btn btn-primary d-block mx-auto")
+			.addClass("btn btn-primary ")
 			.attr("data-bs-toggle", "modal")
 			.attr("data-bs-target", "#bookModal")
 			.css({
@@ -65,7 +70,7 @@ function updateCarousel(books) {
 		let card = $("<div>")
 			.addClass("card custom-book-card")
 			.css({
-				"border-radius": "8%",
+				"border-radius": "6%",
 				"background-color": "#FFFAF4",
 				"box-shadow": "0px 0px 10px rgba(0, 0, 0, 0.1)",
 				"margin-top": "40px",

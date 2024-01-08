@@ -169,6 +169,15 @@ $(document).ready(function () {
 		event.preventDefault();
 
 		let inputValue = $("#search-term").val().trim();
+		if (!inputValue) {
+			console.log("No input value, showing modal.");
+
+			// Create and show the modal
+			var myModal = new bootstrap.Modal(
+				document.getElementById("emptySearchModal")
+			);
+			myModal.show();
+		}
 		if (inputValue) {
 			searchHistory.push(inputValue);
 			if (searchHistory.length > 5) {

@@ -1,5 +1,8 @@
 <a id="Top"></a>
 ![github-header-image](https://github.com/marshjaja/EdX-Group-Project-1/assets/114920895/16b3f25c-fdc7-4f63-87e1-36e5a950efee)
+ 🖇️LINK
+https://marshjaja.github.io/EdX-Group-Project-1/
+
 
 
 <div align="center">
@@ -18,6 +21,8 @@
 ## TECHNOLOGIES USED
 ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -42,14 +47,16 @@ Embark on a Literary Adventure with Tales & Titles: A Haven for Book Lovers!</br
 Dive into the World of Books:
 Tales & Titles is an interactive web application designed for book enthusiasts.</br>
 It offers a unique platform to:
-## **📚Explore Bestsellers:** 
+- ## **📚Explore Bestsellers:** 
 Discover the latest and greatest in the literary world with a curated list of top reads.
-## **📖Search for Books:** 
-Find your next favorite book with our easy-to-use search feature, allowing you to explore titles by author, genre, and more.
-## **📍Locate Bookish Hotspots:** 
-Uncover vibrant, book-centric local spots such as bookstores and libraries near you. Our app intuitively guides you to the nearest bustling bookshops and libraries, enriching your literary journey.
-## **🏠Interactive Map Experience:** 
-Navigate through your local literary landscape with an interactive map, marked with your location and the most exciting literary locales nearby.
+- ## **📖Search for Books:** 
+   - Find your next favorite book with our easy-to-use search feature, allowing you to explore titles by author, genre, and more.
+- ## **💡Personalized Recommendations:**
+   - With the Recommendations Page, users have the opportunity to explore uncharted genres or revisit their favourite genres. By selecting a genre from the dropdown, the user will be greeted with 20 randomised book suggestions based of dropdown selection. Should the user search the same genre again, the results will refresh, offering a new array of books of the genre to discover, ensuring a fresh and exciting literary adventure each time.
+- ## **📍Locate Bookish Hotspots:** 
+    - Uncover vibrant, book-centric local spots such as bookstores and libraries near you. Our app intuitively guides you to the nearest bustling bookshops and libraries, enriching your literary journey.
+- ## **🏠Interactive Map Experience:** 
+    - Navigate through your local literary landscape with an interactive map, marked with your location and the most exciting literary locales nearby.
 BookHub is your gateway to a world where books come alive, connecting you with the stories you love and the communities that cherish them.
 
 ---
@@ -87,12 +94,14 @@ The app should:
 # 📷SCREENSHOTS
 
 
+| Best Seller Page | Book Search Page |
+|----------|----------|
+| <img src="https://github.com/marshjaja/EdX-Group-Project-1/assets/114920895/6160812b-81c2-4d1c-8d2b-142183df3d0e" width="800" alt="Screenshot"> |  <img src="https://github.com/marshjaja/EdX-Group-Project-1/assets/114920895/1afce775-971f-4f51-91ed-69c90cdfb7bb" width="460" alt="Screenshot"> | 
+| <img src="https://github.com/marshjaja/EdX-Group-Project-1/assets/114920895/55b7bcbd-8bf4-49bc-ad96-56c354b0f764" width="800" alt="Screenshot"> | <img src="https://github.com/marshjaja/EdX-Group-Project-1/assets/114920895/6b2bf1f2-4f36-46e4-a563-65082ab208da" width="800" alt="Screenshot"> |
+
+
 ---
 
-# 📹VIDEO 
-
-
----
 
 #❗GETTING STARTED
 1. Clone the repository: git clone <repository-url>

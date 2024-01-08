@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Book Recommendations</title>
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		/>
+
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body class="recommendation-page">
+		<!-- === HEADER ===-->
+		<header>
+			<nav
+				class="navbar navbar-expand-lg navbar-dark"
+				style="background-color: #88ab8e"
+			>
+				<div class="container-fluid">
+					<a class="navbar-brand" href="index.html">
+						<img
+							id="logo-main"
+							src="./assets/group-logo-z-2.png"
+							width="175"
+							alt="Logo Thing main logo"
+						/>
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav ms-auto">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="index.html"
+									>Home</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="books.html">Book Search</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="recommendations.html">
+									Book Recommendations</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="map.html">Book Stores</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- === ./ HEADER ===-->
+		<!-- === MAIN ===-->
+			<body>
+				<main>
+					<!-- === RECOMMENDATIONS DROPDOWN ===-->
+					<section class="main-content">
+						<h1 class="mt-5 mb-5 text-center">
+							<span class="colour-span">Book Recommendations</span>, Find Your
+							Next Read!
+						</h1>
+						<div
+							id="book-search-form"
+							class="dropdown-center input-group input-group-lg mt-5 .custom-margin-top"
+						>
+							<select id="genreSelect" class="form-select form-select-lg">
+								<option value="" disabled selected>Select a Genre</option>
+								<option value="fiction">Fiction</option>
+								<option value="mystery">Mystery</option>
+								<option value="science">Science</option>
+								<option value="fantasy">Fantasy</option>
+								<option value="romance">Romance</option>
+								<option value="history">History</option>
+								<option value="biography">Biography</option>
+								<option value="self-help">Self-Help</option>
+								<option value="science-fiction">Science Fiction</option>
+								<option value="thriller">Thriller</option>
+								<option value="horror">Horror</option>
+								<option value="travel">Travel</option>
+								<option value="cooking">Cooking</option>
+								<option value="children">Children's Books</option>
+								<option value="poetry">Poetry</option>
+								<option value="religion">Religion</option>
+								<option value="philosophy">Philosophy</option>
+								<option value="business">Business</option>
+								<option value="health-wellness">Health & Wellness</option>
+								<option value="art-photography">Art & Photography</option>
+							</select>
+
+							<button
+								id="getRecommendationsBtn"
+								class="btn custom-btn-form"
+								type="submit"
+							>
+								Search
+							</button>
+						</div>
+						<div id="recommendations"></div>
+
+						<!-- === DROPDOWN MODAL ===-->
+						<div
+							class="modal fade"
+							id="noGenreSelectedModal"
+							tabindex="-1"
+							aria-labelledby="modalLabel"
+							aria-hidden="true"
+						>
+							<div class="modal-dialog modal-dialog-centered">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="modalLabel">Almost There!</h5>
+										<button
+											type="button"
+											class="btn-close"
+											data-bs-dismiss="modal"
+											aria-label="Close"
+										></button>
+									</div>
+									<div class="modal-body text-center">
+										<img
+											id="logo-main"
+											src="./assets/lightbulb.png"
+											width="300"
+											alt="Logo Thing main logo"
+										/>
+										<p class="modal-alert-text">
+											You're just one step away from great book recommendations.
+											Please select a genre to begin your literary adventure.
+										</p>
+									</div>
+
+									<div class="modal-footer">
+										<button
+											id="getRecommendationsBtn"
+											data-bs-dismiss="modal"
+											class="btn custom-btn-form"
+											type="submit"
+										>
+											Ok
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- === ./ DROPDOWN MODAL ===-->
+					</section>
+					<!-- === ./ RECOMMENDATIONS DROPDOWN ===-->
+
+					<!-- === BOOK MODAL ===-->
+					<section>
+						<div
+							class="modal fade"
+							id="bookModal"
+							tabindex="-1"
+							aria-labelledby="bookModalLabel"
+							aria-hidden="true"
+						>
+							<div
+								class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+							>
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="bookModalLabel">
+											Book Details
+										</h5>
+										<button
+											type="button"
+											class="btn-close"
+											data-bs-dismiss="modal"
+											aria-label="Close"
+										></button>
+									</div>
+									<div class="modal-body">
+										<img id="bookImage" src="" alt="Book cover" />
+										<p id="bookAuthor"></p>
+										<p id="pageCount"></p>
+										<p id="publisher"></p>
+										<p id="category"></p>
+										<p id="releaseDate"></p>
+										<p id="bookDescription"></p>
+										<p id="bookRating"></p>
+									</div>
+									<div class="modal-footer">
+										<button
+											type="button"
+											class="btn btn-secondary custom-btn"
+											data-bs-dismiss="modal"
+										>
+											Close
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- === ./ BOOK MODAL ===-->
+				</main>
+				<!-- === ./ MAIN ===-->
+
+				<!-- === FOOTER ===-->
+				<footer
+					class="text-center text-lg-start text-white"
+					style="background-color: #88ab8e"
+				>
+					<div class="container p-4 pb-0">
+						<section class="container-fluid mb-4 text-center">
+							<p class="d-flex justify-content-center align-items-center">
+								<span class="me-3">Search for your favorite books</span>
+								<button
+									type="button"
+									class="btn btn-outline-light btn-rounded me-3"
+								>
+									<a class="nav-link" href="books.html">Book Search</a>
+								</button>
+								<a
+									class="btn btn-outline-light btn-floating m-1 me-3"
+									href="https://marshjaja.github.io/EdX-Group-Project-1/"
+									role="button"
+								>
+									<i class="fa fa-external-link"></i>
+								</a>
+								<a
+									class="btn btn-outline-light btn-floating m-1"
+									href="https://github.com/marshjaja/EdX-Group-Project-1"
+								>
+									<i class="fab fa-github"></i>
+								</a>
+							</p>
+						</section>
+					</div>
+					<div class="text-center p-3" style="background-color: #739072">
+						©
+			<span id="current-year"></span> Marcia. All Rights Reserved.
+					</div>
+				</footer>
+				<!-- === ./ FOOTER ===-->
+				<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+				<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+				<script src="./js/recommendations.js"></script>
+				<script>
+					$("#current-year").text(new Date().getFullYear());
+				</script>
+	
+	</body>
+</html>
